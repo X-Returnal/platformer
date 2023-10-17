@@ -1,3 +1,18 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697557127
+::res://::1697558194
+block.png::CompressedTexture2D::214996627567274701::1697557784::1697558194::1::::<><>::
+brick.png::CompressedTexture2D::8954832340301122023::1697557784::1697558185::1::::<><>::
 icon.svg::CompressedTexture2D::6512137974241516883::1697557122::1697557130::1::::<><>::
+README.md::TextFile::-1::1697557448::0::1::::<><>::
+world.tscn::PackedScene::7977767203263271242::1697558002::0::1::::<><>::
+::res://super-bazza-bogan assets/::1697558194
+bazzabogan.png::CompressedTexture2D::4578575007075715951::1697557784::1697557802::1::::<><>::
+beerbottle.png::CompressedTexture2D::3706715822093297329::1697557784::1697557802::1::::<><>::
+coin.mp3::AudioStreamMP3::5714971054206309308::1697557784::1697557802::1::::<><>::
+flagpole.png::CompressedTexture2D::3370064945542031663::1697557784::1697557802::1::::<><>::
+lvl2-block.png::CompressedTexture2D::251719011002812665::1697557784::1697557802::1::::<><>::
+lvl2-brick.png::CompressedTexture2D::2081137696838173022::1697557784::1697557802::1::::<><>::
+questionblock.png::CompressedTexture2D::732462865733900419::1697557784::1697557802::1::::<><>::
+toad2.png::CompressedTexture2D::7753266179340218267::1697557784::1697557802::1::::<><>::
+toad.png::CompressedTexture2D::3835709384869280120::1697557784::1697557802::1::::<><>::
+underworldtoadg.png::CompressedTexture2D::4991972424366857177::1697557784::1697557802::1::::<><>::
