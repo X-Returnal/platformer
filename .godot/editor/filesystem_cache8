@@ -1,12 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697642867
+::res://::1697644127
+bazzabogan.png::CompressedTexture2D::4578575007075715951::1697557784::1697644127::1::::<><>::
 block.png::CompressedTexture2D::214996627567274701::1697557784::1697558194::1::::<><>::
 brick.png::CompressedTexture2D::8954832340301122023::1697557784::1697558185::1::::<><>::
 icon.svg::CompressedTexture2D::6512137974241516883::1697557122::1697557130::1::::<><>::
+player.tscn::PackedScene::991101896960697809::1697643895::0::1::::<><>::
 README.md::TextFile::-1::1697559344::0::1::::<><>::
-world.tscn::PackedScene::7977767203263271242::1697559298::0::1::::<><>::uid://dce70jrhhja8::::res://block.png<>uid://d0t11sb8tobkp::::res://brick.png
-::res://super-bazza-bogan assets/::1697558194
-bazzabogan.png::CompressedTexture2D::4578575007075715951::1697557784::1697557802::1::::<><>::
+world.tscn::PackedScene::7977767203263271242::1697643321::0::1::::<><>::uid://dce70jrhhja8::::res://block.png<>uid://d0t11sb8tobkp::::res://brick.png
+::res://super-bazza-bogan assets/::1697644127
 beerbottle.png::CompressedTexture2D::3706715822093297329::1697557784::1697557802::1::::<><>::
 coin.mp3::AudioStreamMP3::5714971054206309308::1697557784::1697557802::1::::<><>::
 flagpole.png::CompressedTexture2D::3370064945542031663::1697557784::1697557802::1::::<><>::

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6h5pxn8lbfu2"
-path="res://.godot/imported/bazzabogan.png-288455fc5a9492d6d375f1db23163b1c.ctex"
+path="res://.godot/imported/bazzabogan.png-afa833b4cf78120876dc37b435ee5837.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://super-bazza-bogan assets/bazzabogan.png"
-dest_files=["res://.godot/imported/bazzabogan.png-288455fc5a9492d6d375f1db23163b1c.ctex"]
+source_file="res://bazzabogan.png"
+dest_files=["res://.godot/imported/bazzabogan.png-afa833b4cf78120876dc37b435ee5837.ctex"]
 
 [params]
 
