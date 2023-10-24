@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buwbtqtwss00s"
-path="res://.godot/imported/toad.png-3c39c8a4f7ff2f7834d38327cee664c5.ctex"
+path="res://.godot/imported/toad.png-1bc4f1f7911b31a6aa015b563c8d5629.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://super-bazza-bogan assets/toad.png"
-dest_files=["res://.godot/imported/toad.png-3c39c8a4f7ff2f7834d38327cee664c5.ctex"]
+source_file="res://toad.png"
+dest_files=["res://.godot/imported/toad.png-1bc4f1f7911b31a6aa015b563c8d5629.ctex"]
 
 [params]
 
