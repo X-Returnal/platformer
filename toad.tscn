@@ -74,6 +74,8 @@ size = Vector2(16, 12)
 size = Vector2(14, 6)
 
 [node name="toad" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 3
 script = ExtResource("1_pha6c")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

@@ -1,7 +1,11 @@
-[gd_scene load_steps=10 format=3 uid="uid://oedkk1plaimj"]
+[gd_scene load_steps=12 format=3 uid="uid://oedkk1plaimj"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_ljm41"]
 [ext_resource type="Texture2D" uid="uid://b6h5pxn8lbfu2" path="res://bazzabogan.png" id="1_yi41u"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nhfny"]
+atlas = ExtResource("1_yi41u")
+region = Rect2(160, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8s5o3"]
 atlas = ExtResource("1_yi41u")
@@ -25,6 +29,14 @@ region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_vpjmx"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nhfny")
+}],
+"loop": true,
+"name": &"die",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_8s5o3")
@@ -60,14 +72,29 @@ animations = [{
 radius = 8.0
 height = 32.0
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fstdm"]
+size = Vector2(20, 26)
+
 [node name="player" type="CharacterBody2D"]
 script = ExtResource("1_ljm41")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -16)
 sprite_frames = SubResource("SpriteFrames_vpjmx")
-animation = &"idle"
+animation = &"die"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -16)
 shape = SubResource("CapsuleShape2D_lmyg4")
+
+[node name="hitbox" type="Area2D" parent="."]
+position = Vector2(0, -16)
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(0, -3)
+shape = SubResource("RectangleShape2D_fstdm")
+
+[node name="Death_Timer" type="Timer" parent="."]
+
+[connection signal="body_entered" from="hitbox" to="." method="_on_hitbox_body_entered"]
