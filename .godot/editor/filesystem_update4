@@ -1,5 +1,6 @@
 res://world.tscn
 res://player.tscn
 res://toad.tscn
-res://player.gd
+res://big_toad.tscn
+res://big_toad.gd
 res://toad.gd

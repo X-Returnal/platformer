@@ -1,4 +1,6 @@
 extends CharacterBody2D
+
+
 var SPEED = -25.0
 var facing_right = false
 var is_alive = true
@@ -13,7 +15,7 @@ func _physics_process(delta):
 		velocity.y += gravity * delta
 	
 	#gravity
-	if $RayCast2D.is_colliding():
+	if !$RayCast2D.is_colliding() && is_on_floor():
 		flip()
 
 	#constant movement using speed speed
@@ -21,7 +23,11 @@ func _physics_process(delta):
 
 	move_and_slide()
 func update_animation(_direction):
-	animated_sprite_2d.play("hop")
+
+
+		animated_sprite_2d.play("hop")
+
+
 func _on_hitbox_body_entered(body):
 	if body.is_in_group("Player"):
 		is_alive= false
