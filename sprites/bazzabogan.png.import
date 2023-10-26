@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d0t11sb8tobkp"
-path="res://.godot/imported/brick.png-3b7e2d2d29430a475fb75656e3e81471.ctex"
+uid="uid://b6h5pxn8lbfu2"
+path="res://.godot/imported/bazzabogan.png-1ff0b99cc899b197e52731c5bea0564c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://brick.png"
-dest_files=["res://.godot/imported/brick.png-3b7e2d2d29430a475fb75656e3e81471.ctex"]
+source_file="res://sprites/bazzabogan.png"
+dest_files=["res://.godot/imported/bazzabogan.png-1ff0b99cc899b197e52731c5bea0564c.ctex"]
 
 [params]
 

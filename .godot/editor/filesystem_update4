@@ -4,3 +4,10 @@ res://toad.tscn
 res://big_toad.tscn
 res://big_toad.gd
 res://toad.gd
+res://coin.gd
+res://objects/big_toad.tscn
+res://coin.tscn
+res://objects/toad.tscn
+res://levels/world.tscn
+res://objects/player.tscn
+res://objects/coin.tscn

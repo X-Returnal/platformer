@@ -1,38 +1,38 @@
 [gd_scene load_steps=14 format=3 uid="uid://ps0xk0nmk0pv"]
 
-[ext_resource type="Texture2D" uid="uid://dip0fqmdheafb" path="res://toad2.png" id="1_1ahqr"]
-[ext_resource type="Script" path="res://big_toad.gd" id="1_n7b5y"]
+[ext_resource type="Script" path="res://scripts/big_toad.gd" id="1_k7amq"]
+[ext_resource type="Texture2D" uid="uid://dip0fqmdheafb" path="res://sprites/toad2.png" id="2_hwc38"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_iue2i"]
-atlas = ExtResource("1_1ahqr")
+atlas = ExtResource("2_hwc38")
 region = Rect2(0, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_shkpj"]
-atlas = ExtResource("1_1ahqr")
+atlas = ExtResource("2_hwc38")
 region = Rect2(16, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_w8lyk"]
-atlas = ExtResource("1_1ahqr")
+atlas = ExtResource("2_hwc38")
 region = Rect2(32, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_84f5n"]
-atlas = ExtResource("1_1ahqr")
+atlas = ExtResource("2_hwc38")
 region = Rect2(48, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dwyju"]
-atlas = ExtResource("1_1ahqr")
+atlas = ExtResource("2_hwc38")
 region = Rect2(64, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0sb4j"]
-atlas = ExtResource("1_1ahqr")
+atlas = ExtResource("2_hwc38")
 region = Rect2(80, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mawex"]
-atlas = ExtResource("1_1ahqr")
+atlas = ExtResource("2_hwc38")
 region = Rect2(96, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ln678"]
-atlas = ExtResource("1_1ahqr")
+atlas = ExtResource("2_hwc38")
 region = Rect2(112, 0, 16, 16)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_wnhrd"]
@@ -74,7 +74,7 @@ size = Vector2(16, 12)
 size = Vector2(14, 6)
 
 [node name="big_toad" type="CharacterBody2D"]
-script = ExtResource("1_n7b5y")
+script = ExtResource("1_k7amq")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -8)
