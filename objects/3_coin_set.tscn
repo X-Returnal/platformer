@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dorhb7uwfvo1p"]
+
+[ext_resource type="PackedScene" uid="uid://blsso3uxol0rb" path="res://objects/coin.tscn" id="1_pdkln"]
+
+[node name="3_coin_set" type="Node2D"]
+
+[node name="coin" parent="." instance=ExtResource("1_pdkln")]
+position = Vector2(-16, 6.10352e-05)
+
+[node name="coin2" parent="." instance=ExtResource("1_pdkln")]
+position = Vector2(7.62939e-06, 6.10352e-05)
+
+[node name="coin3" parent="." instance=ExtResource("1_pdkln")]
+position = Vector2(16, 6.10352e-05)

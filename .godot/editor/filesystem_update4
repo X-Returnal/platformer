@@ -11,3 +11,5 @@ res://objects/toad.tscn
 res://levels/world.tscn
 res://objects/player.tscn
 res://objects/coin.tscn
+res://objects/3_coin_set.tscn
+res://levels/world.gd
