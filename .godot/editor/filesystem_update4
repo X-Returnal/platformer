@@ -13,3 +13,9 @@ res://objects/player.tscn
 res://objects/coin.tscn
 res://objects/3_coin_set.tscn
 res://levels/world.gd
+res://global.gd
+res://scripts/coin.gd
+res://coin_gui.gd
+res://coin_gui.tscn
+res://objects/coin_gui.tscn
+res://scripts/coin_gui.gd

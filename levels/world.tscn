@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://dlwqwpjknxcyk"]
+[gd_scene load_steps=15 format=3 uid="uid://dlwqwpjknxcyk"]
 
 [ext_resource type="Script" path="res://levels/world.gd" id="1_6oll6"]
 [ext_resource type="Texture2D" uid="uid://dce70jrhhja8" path="res://sprites/block.png" id="1_u4ng8"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://ds03memfccdqh" path="res://objects/toad.tscn" id="3_3ouw8"]
 [ext_resource type="PackedScene" uid="uid://oedkk1plaimj" path="res://objects/player.tscn" id="4_r1guy"]
 [ext_resource type="PackedScene" uid="uid://ps0xk0nmk0pv" path="res://objects/big_toad.tscn" id="5_myk66"]
+[ext_resource type="PackedScene" uid="uid://bmajaafe5te8r" path="res://objects/coin_gui.tscn" id="5_sna74"]
 [ext_resource type="PackedScene" uid="uid://blsso3uxol0rb" path="res://objects/coin.tscn" id="6_2tccx"]
 [ext_resource type="PackedScene" uid="uid://dorhb7uwfvo1p" path="res://objects/3_coin_set.tscn" id="7_f1lck"]
 
@@ -54,6 +55,8 @@ limit_bottom = 650
 position_smoothing_enabled = true
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
+
+[node name="coin_gui" parent="TileMap/player" instance=ExtResource("5_sna74")]
 
 [node name="toads" type="Node" parent="TileMap"]
 
