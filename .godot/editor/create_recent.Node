@@ -1,13 +1,14 @@
+CollisionShape2D
+Area2D
+ColorRect
+TileMap
 Label
 CanvasLayer
 AudioStreamPlayer2D
 Node
-CollisionShape2D
-Area2D
 Sprite2D
 RayCast2D
 AnimatedSprite2D
 CharacterBody2D
 Timer
 Camera2D
-TileMap

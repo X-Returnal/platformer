@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dt61mj0sxgbh"
-path="res://.godot/imported/lvl2-block.png-fd15a36eff54d00785f74ca37230a49f.ctex"
+path="res://.godot/imported/lvl2-block.png-e27d5888eb0ea2498f4076a8c94fa600.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://super-bazza-bogan assets/lvl2-block.png"
-dest_files=["res://.godot/imported/lvl2-block.png-fd15a36eff54d00785f74ca37230a49f.ctex"]
+source_file="res://sprites/lvl2-block.png"
+dest_files=["res://.godot/imported/lvl2-block.png-e27d5888eb0ea2498f4076a8c94fa600.ctex"]
 
 [params]
 

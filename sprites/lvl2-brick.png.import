@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4webfc3b18hm"
-path="res://.godot/imported/lvl2-brick.png-d62c169776bf62afc3cf4619294f3ab1.ctex"
+path="res://.godot/imported/lvl2-brick.png-ff6b8f0d0bb20d14a9c1a1eb2ad2b5df.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://super-bazza-bogan assets/lvl2-brick.png"
-dest_files=["res://.godot/imported/lvl2-brick.png-d62c169776bf62afc3cf4619294f3ab1.ctex"]
+source_file="res://sprites/lvl2-brick.png"
+dest_files=["res://.godot/imported/lvl2-brick.png-ff6b8f0d0bb20d14a9c1a1eb2ad2b5df.ctex"]
 
 [params]
 

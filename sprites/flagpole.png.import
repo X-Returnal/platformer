@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://boaqqh0bas17x"
-path="res://.godot/imported/flagpole.png-9b59c1774d9c0b27383522e9fd93609f.ctex"
+path="res://.godot/imported/flagpole.png-8c5452dd6a3fffc4377066d32e184097.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://super-bazza-bogan assets/flagpole.png"
-dest_files=["res://.godot/imported/flagpole.png-9b59c1774d9c0b27383522e9fd93609f.ctex"]
+source_file="res://sprites/flagpole.png"
+dest_files=["res://.godot/imported/flagpole.png-8c5452dd6a3fffc4377066d32e184097.ctex"]
 
 [params]
 

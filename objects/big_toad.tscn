@@ -80,6 +80,7 @@ script = ExtResource("1_k7amq")
 position = Vector2(0, -8)
 sprite_frames = SubResource("SpriteFrames_wnhrd")
 animation = &"hop"
+autoplay = "hop"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -6)
