@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://cs20001kf0byn"]
+[gd_scene load_steps=6 format=3 uid="uid://cs20001kf0byn"]
 
 [ext_resource type="TileSet" uid="uid://c6l2tlmuvjhs8" path="res://sprites/tile_set.tres" id="1_5h8tt"]
 [ext_resource type="Script" path="res://levels/world.gd" id="1_irx7c"]
 [ext_resource type="PackedScene" uid="uid://oedkk1plaimj" path="res://objects/player.tscn" id="2_nhej6"]
+[ext_resource type="PackedScene" uid="uid://bmajaafe5te8r" path="res://objects/coin_gui.tscn" id="4_jsm1n"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yxihe"]
 size = Vector2(640, 128)
@@ -34,6 +35,8 @@ limit_bottom = 650
 position_smoothing_enabled = true
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
+
+[node name="coin_gui" parent="TileMap/player" instance=ExtResource("4_jsm1n")]
 
 [node name="transition" type="Area2D" parent="."]
 position = Vector2(280, 648)

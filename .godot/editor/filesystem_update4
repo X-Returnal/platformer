@@ -24,3 +24,4 @@ res://levels/world_2.tscn
 res://levels/transition_down.tscn
 res://world_2.tscn
 res://scripts/global.gd
+res://scripts/player.gd

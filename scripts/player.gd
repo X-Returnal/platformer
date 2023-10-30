@@ -55,7 +55,12 @@ func die():
 	is_dying = true
 	animated_sprite_2d.play("die")
 	await die_animate()
-	get_tree().reload_current_scene()
+	Global.lives -=1
+	if Global.lives>0:
+		get_tree().reload_current_scene()
+	else:
+		queue_free()
+		#ded scene
 func die_animate():
 	var start_position = position
 	var up_position = start_position + Vector2(0,-100)
