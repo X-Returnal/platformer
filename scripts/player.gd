@@ -59,8 +59,8 @@ func die():
 	if Global.lives>0:
 		get_tree().reload_current_scene()
 	else:
-		queue_free()
-		#ded scene
+		
+		get_tree().change_scene_to_file("res://levels/gameover.tscn")
 func die_animate():
 	var start_position = position
 	var up_position = start_position + Vector2(0,-100)
