@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ko2s6geuppxb"
-path="res://.godot/imported/questionblock.png-1feb373e4fcf910657d93a79cf498eb3.ctex"
+path="res://.godot/imported/questionblock.png-a2a8e1f379f0813ecef04e98e5ff3975.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://super-bazza-bogan assets/questionblock.png"
-dest_files=["res://.godot/imported/questionblock.png-1feb373e4fcf910657d93a79cf498eb3.ctex"]
+source_file="res://sprites/questionblock.png"
+dest_files=["res://.godot/imported/questionblock.png-a2a8e1f379f0813ecef04e98e5ff3975.ctex"]
 
 [params]
 

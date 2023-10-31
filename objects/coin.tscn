@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://b03nu26ngdktl" path="res://sprites/coin.png" id="1_1dmy0"]
 [ext_resource type="Script" path="res://scripts/coin.gd" id="2_g22gg"]
-[ext_resource type="AudioStream" uid="uid://cnom0dp7i71to" path="res://coin.mp3" id="3_xor6x"]
+[ext_resource type="AudioStream" uid="uid://cnom0dp7i71to" path="res://sounds/coin.mp3" id="3_84844"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ebpr2"]
 
@@ -18,6 +18,6 @@ script = ExtResource("2_g22gg")
 shape = SubResource("CapsuleShape2D_ebpr2")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="interaction"]
-stream = ExtResource("3_xor6x")
+stream = ExtResource("3_84844")
 
 [connection signal="body_entered" from="interaction" to="." method="_on_interaction_body_entered"]

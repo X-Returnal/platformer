@@ -14,3 +14,7 @@ res://levels/start.tscn
 res://scripts/start.gd
 res://scripts/player.gd
 res://levels/gameover.tscn
+res://questionblock.tscn
+res://questionblock.gd
+res://beer.gd
+res://scripts/global.gd
