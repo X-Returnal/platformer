@@ -1,0 +1,14 @@
+res://levels/gameover.tscn::b0749a88ea33740f29a0c97c3e5c567c::1698766428::res://.godot/exported/133200997/export-af7f1392e3496e2fca5fa079b3b45b12-gameover.scn
+res://levels/start.tscn::cb6d7eecbc71e4c50475b4d3091e38fd::1698766428::res://.godot/exported/133200997/export-ac6625e62a8695822dae779b315e9dd7-start.scn
+res://levels/transition_down.tscn::b2f52691f98d707de71d08f7f8eb838a::1698766428::res://.godot/exported/133200997/export-0521f01920fde9d96ae101efbf0990fd-transition_down.scn
+res://levels/world1.tscn::89c0d94cdc60a8e0fb845a7ad08ebbe9::1698854788::res://.godot/exported/133200997/export-e6108573fa996e7e188b35e3cc258676-world1.scn
+res://levels/world_2.tscn::626a5cd056f82afcbecea9420f2b52e5::1698766428::res://.godot/exported/133200997/export-3433c826df1fa6478edbef6faa58a50e-world_2.scn
+res://objects/3_coin_set.tscn::f00cbf82ce76a131e2f3afc1fb8dedd9::1698854788::res://.godot/exported/133200997/export-0c157b31c51c744f29d06e885dc5181a-3_coin_set.scn
+res://objects/big_toad.tscn::53a5d1654774edaaaf7f62649b1c0aa5::1698854788::res://.godot/exported/133200997/export-faa8908f407ddce239ecf6016357509d-big_toad.scn
+res://objects/coin.tscn::3f0f1b0e866b084058289da40479a796::1698854788::res://.godot/exported/133200997/export-95f0d95b3a03d7f40146d4fc05617007-coin.scn
+res://objects/coin_gui.tscn::9f3e381fc61348dec5d59a11c069d871::1698854788::res://.godot/exported/133200997/export-709fdc1e14b4e596768f98becb43a7df-coin_gui.scn
+res://objects/player.tscn::ed0441d7b3e69ee925b188b7c0ed99e3::1698854788::res://.godot/exported/133200997/export-fd917217c4a5592248a679abd5f3a5fe-player.scn
+res://objects/questionblock.tscn::8822b40aa10b6039853cb4aa550339a0::1698854788::res://.godot/exported/133200997/export-d119345f88e53d03ea367f4d7fddeb6d-questionblock.scn
+res://objects/toad.tscn::446159f21df2e6e2fecb9a08aab8a7d4::1698854788::res://.godot/exported/133200997/export-8eea341c25f42ca09391ec5a9b09c128-toad.scn
+res://sprites/tile_set.tres::81038ffed1b4397061d406463e7cec81::1698765780::res://.godot/exported/133200997/export-453299f59b8e3ee12ec41d5d435b17fd-tile_set.res
+res://beer.tscn::1a06e9811896c64de875dfac6eacf690::1698854788::res://.godot/exported/133200997/export-e348b9df52eadb781a13a44c45bb8b05-beer.scn

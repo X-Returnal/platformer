@@ -9,6 +9,4 @@ func spawn_beer_bottle(pos):
 	var beer = Beerscene.instantiate()
 	
 	get_tree().root.add_child(beer)
-	while !beer.is_node_ready():
-		pass
 	beer.global_position = pos

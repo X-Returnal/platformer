@@ -22,7 +22,7 @@ func _physics_process(delta):
 
 func _on_interact_body_entered(body):
 	if body.is_in_group("Player"):
-		Global.lives += 1
+		body.make_big()
 		queue_free()
 func flip():
 	facing_right = !facing_right
