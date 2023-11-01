@@ -25,3 +25,4 @@ func bump_upward():
 	
 func return_state():
 	position = original_position
+

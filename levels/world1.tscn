@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://dlwqwpjknxcyk"]
+[gd_scene load_steps=12 format=3 uid="uid://dlwqwpjknxcyk"]
 
 [ext_resource type="Script" path="res://levels/world.gd" id="1_onq3k"]
 [ext_resource type="TileSet" uid="uid://c6l2tlmuvjhs8" path="res://sprites/tile_set.tres" id="2_p3yrk"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://ds03memfccdqh" path="res://objects/toad.tscn" id="7_5kkfh"]
 [ext_resource type="PackedScene" uid="uid://ps0xk0nmk0pv" path="res://objects/big_toad.tscn" id="8_x5el8"]
 [ext_resource type="PackedScene" uid="uid://blsso3uxol0rb" path="res://objects/coin.tscn" id="9_kr8sb"]
+[ext_resource type="PackedScene" uid="uid://vq1m3otvitgm" path="res://objects/questionblock.tscn" id="9_rcpto"]
 [ext_resource type="PackedScene" uid="uid://dorhb7uwfvo1p" path="res://objects/3_coin_set.tscn" id="10_gw8us"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2os52"]
@@ -85,6 +86,9 @@ shape = SubResource("RectangleShape2D_5nq12")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="transition"]
 position = Vector2(1780, 472)
 shape = SubResource("RectangleShape2D_2os52")
+
+[node name="questionblock" parent="." instance=ExtResource("9_rcpto")]
+position = Vector2(384, 504)
 
 [connection signal="body_entered" from="interaction" to="." method="_on_interaction_body_entered"]
 [connection signal="body_entered" from="transition" to="." method="_on_transition_body_entered"]

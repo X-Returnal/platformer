@@ -18,3 +18,7 @@ res://questionblock.tscn
 res://questionblock.gd
 res://beer.gd
 res://scripts/global.gd
+res://beer.tscn
+res://objects/questionblock.tscn
+res://scripts/questionblock.gd
+res://scripts/beer.gd
