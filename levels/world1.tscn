@@ -90,5 +90,8 @@ shape = SubResource("RectangleShape2D_2os52")
 [node name="questionblock" parent="." instance=ExtResource("9_rcpto")]
 position = Vector2(384, 504)
 
+[node name="questionblock2" parent="." instance=ExtResource("9_rcpto")]
+position = Vector2(1032, 104)
+
 [connection signal="body_entered" from="interaction" to="." method="_on_interaction_body_entered"]
 [connection signal="body_entered" from="transition" to="." method="_on_transition_body_entered"]

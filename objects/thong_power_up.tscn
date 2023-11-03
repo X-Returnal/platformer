@@ -1,0 +1,64 @@
+[gd_scene load_steps=10 format=3 uid="uid://cwf4kihfvl6ja"]
+
+[ext_resource type="Script" path="res://scripts/thong_power_up.gd" id="1_y64an"]
+[ext_resource type="Texture2D" uid="uid://cprm4i0fup7g6" path="res://sprites/thong.png" id="2_sxilb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qbple"]
+atlas = ExtResource("2_sxilb")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i6lsw"]
+atlas = ExtResource("2_sxilb")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4mqyp"]
+atlas = ExtResource("2_sxilb")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_plke3"]
+atlas = ExtResource("2_sxilb")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qo5ly"]
+atlas = ExtResource("2_sxilb")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hg4kk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qbple")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i6lsw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4mqyp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_plke3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qo5ly")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_174qr"]
+
+[node name="ThongPowerUp" type="Area2D"]
+collision_mask = 3
+script = ExtResource("1_y64an")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1, -5.75)
+scale = Vector2(0.8125, 0.765625)
+sprite_frames = SubResource("SpriteFrames_hg4kk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, -6)
+shape = SubResource("CapsuleShape2D_174qr")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

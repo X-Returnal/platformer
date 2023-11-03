@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bs2tckv6raorh"
-path="res://.godot/imported/beerbottle.png-7150836c56a06a08bcd18787eacb6692.ctex"
+uid="uid://cdefb6knwp38p"
+path="res://.godot/imported/underworldtoadg.png-1f298e2141e843a24ea84d91d008bbac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://super-bazza-bogan assets/beerbottle.png"
-dest_files=["res://.godot/imported/beerbottle.png-7150836c56a06a08bcd18787eacb6692.ctex"]
+source_file="res://sprites/underworldtoadg.png"
+dest_files=["res://.godot/imported/underworldtoadg.png-1f298e2141e843a24ea84d91d008bbac.ctex"]
 
 [params]
 

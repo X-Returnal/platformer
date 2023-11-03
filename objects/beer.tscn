@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bjpgu12e5ajmj"]
 
-[ext_resource type="Script" path="res://scripts/beer.gd" id="1_qb8kr"]
-[ext_resource type="Texture2D" uid="uid://bs2tckv6raorh" path="res://super-bazza-bogan assets/beerbottle.png" id="2_ud73r"]
+[ext_resource type="Script" path="res://scripts/beer.gd" id="1_14g5q"]
+[ext_resource type="Texture2D" uid="uid://bs2tckv6raorh" path="res://sprites/beerbottle.png" id="2_t5nht"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_17nxt"]
 size = Vector2(7, 20)
@@ -11,11 +11,11 @@ size = Vector2(15, 29)
 
 [node name="beer" type="CharacterBody2D"]
 position = Vector2(0, -16)
-script = ExtResource("1_qb8kr")
+script = ExtResource("1_14g5q")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, 1)
-texture = ExtResource("2_ud73r")
+texture = ExtResource("2_t5nht")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-0.5, 6)

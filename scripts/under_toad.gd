@@ -1,12 +1,13 @@
 extends CharacterBody2D
 var SPEED = 25.0
 var facing_right = true
-
-
+var is_alive = true
+@onready var animated_sprite_2d = $AnimatedSprite2D
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
-
+func _ready():
+	add_to_group("Enemy")
 func _physics_process(delta):
 	if not is_on_floor():
 		velocity.y += gravity * delta
@@ -19,10 +20,11 @@ func _physics_process(delta):
 	velocity.x = SPEED
 
 	move_and_slide()
-
-func _on_interact_body_entered(body):
+func update_animation(_direction):
+	animated_sprite_2d.play("hop")
+func _on_hitbox_body_entered(body):
 	if body.is_in_group("Player"):
-		Global.lives += 1
+		is_alive= false
 		queue_free()
 func flip():
 	facing_right = !facing_right
@@ -31,5 +33,3 @@ func flip():
 		SPEED = abs(SPEED)
 	else:
 		SPEED = abs(SPEED)*-1
-
-

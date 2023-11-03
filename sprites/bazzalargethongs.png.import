@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cdefb6knwp38p"
-path="res://.godot/imported/underworldtoadg.png-b63601ff3eabd84a9d13618bcc7afa74.ctex"
+uid="uid://c3bbm8xwkijab"
+path="res://.godot/imported/bazzalargethongs.png-dd0f2a87ef562c6739d668226ccf1269.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://super-bazza-bogan assets/underworldtoadg.png"
-dest_files=["res://.godot/imported/underworldtoadg.png-b63601ff3eabd84a9d13618bcc7afa74.ctex"]
+source_file="res://sprites/bazzalargethongs.png"
+dest_files=["res://.godot/imported/bazzalargethongs.png-dd0f2a87ef562c6739d668226ccf1269.ctex"]
 
 [params]
 

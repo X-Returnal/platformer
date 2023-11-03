@@ -6,7 +6,8 @@ extends CanvasLayer
 func _on_start_pressed():
 	Global.lives = 3
 	Global.level = 0
-	Global.total_coins = 0
+	Global.coins = 0
+	Global.current_state = Global.PlayerState.BASIC
 	get_tree().change_scene_to_file("res://levels/world1.tscn")
 
 
