@@ -1,6 +1,6 @@
 [gd_scene load_steps=11 format=3 uid="uid://o6q5vv1cydr5"]
 
-[ext_resource type="Script" path="res://Thong.gd" id="1_osna2"]
+[ext_resource type="Script" path="res://scripts/Thong.gd" id="1_qhh6m"]
 [ext_resource type="Texture2D" uid="uid://cprm4i0fup7g6" path="res://sprites/thong.png" id="2_nqmei"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hq5m8"]
@@ -54,7 +54,7 @@ height = 18.0
 
 [node name="Thong" type="Area2D"]
 collision_mask = 3
-script = ExtResource("1_osna2")
+script = ExtResource("1_qhh6m")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -2)

@@ -105,6 +105,7 @@ func fire_thong():
 	get_parent().add_child(thong)
 	$AnimatedSprite2D.play("thong_fire")
 	await get_tree().create_timer(.5).timeout
+	is_fire= false
 #do not 
 #just don't
 func make_big():

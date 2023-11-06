@@ -3,7 +3,7 @@ extends Area2D
 enum State {UNBUMPED, BUMPED}
 var state: int = State.UNBUMPED
 var original_position: Vector2
-var lucky = 10
+var lucky = 8
 func _ready():
 	original_position = position
 
