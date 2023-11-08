@@ -4,6 +4,7 @@ var is_dying = false
 var is_big =false
 var is_fire = false
 var is_power = false
+var extra_jump = false
 var player_direction = 1
 
 const SPEED = 100.0
@@ -24,12 +25,17 @@ func _physics_process(delta):
 		velocity.y += gravity * delta
 	else:
 		is_jumping = false
-	if Global.current_state == Global.PlayerState.THONG and Input.is_action_just_pressed("fire"):
-		fire_thong()
+		extra_jump = true
+# 		thongs are now dobbel jump
+#	if Global.current_state == Global.PlayerState.THONG and Input.is_action_just_pressed("fire"):
+#		fire_thong()
 	# Handle Jump.
 	if Input.is_action_just_pressed("ui_up") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
 		is_jumping = true
+	elif Input.is_action_just_pressed("ui_up") and extra_jump and Global.current_state == Global.PlayerState.THONG:
+		velocity.y = JUMP_VELOCITY
+		extra_jump = false
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction = Input.get_axis("ui_left", "ui_right")
@@ -42,7 +48,7 @@ func _physics_process(delta):
 	move_and_slide()
 
 func update_animation(direction):
-	if is_dying or is_fire:  # Add the new flag here
+	if is_dying :  # Add the new flag here
 		return
 	
 	match Global.current_state:
@@ -66,10 +72,7 @@ func update_animation(direction):
 
 func _on_hitbox_body_entered(body):
 	if body.is_in_group("Enemy") and body.is_alive:
-		if is_big:
-			make_small()
-		else:
-			die()
+		die()
 func die():
 	if is_dying:
 		return
@@ -80,8 +83,9 @@ func die():
 	if Global.lives>0:
 		get_tree().reload_current_scene()
 	else:
-		
-		get_tree().change_scene_to_file("res://levels/gameover.tscn")
+		# add falling cutscene 
+		Global.level = -2
+		get_tree().change_scene_to_file("res://levels/layer0.tscn")
 func die_animate():
 	var start_position = position
 	var up_position = start_position + Vector2(0,-100)
@@ -92,25 +96,5 @@ func die_animate():
 	while position.y < down_position.y:
 		position.y += 4
 		await get_tree().create_timer(0.01).timeout
-
-
-func fire_thong():
-	is_fire = true
-	print("firing thong")
-	var thong = load("res://objects/thong.tscn").instantiate()
-	thong.global_position = Vector2(self.global_position.x, self.global_position.y - 15)
-
-	thong.set("velocity", Vector2(500 * player_direction, 0))
-	print("Thong fired")
-	get_parent().add_child(thong)
-	$AnimatedSprite2D.play("thong_fire")
-	await get_tree().create_timer(.5).timeout
-	is_fire= false
 #do not 
 #just don't
-func make_big():
-	is_big=true
-	self.scale=Vector2(1,1.5)
-func make_small():
-	is_big=false
-	self.scale=Vector2(1,1)

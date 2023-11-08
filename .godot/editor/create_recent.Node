@@ -1,5 +1,9 @@
 CollisionShape2D
 Area2D
+HSeparator
+VBoxContainer
+CenterContainer
+LineEdit
 RayCast2D
 Sprite2D
 CharacterBody2D
